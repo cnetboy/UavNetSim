@@ -32,7 +32,7 @@ This repository corresponds to our following paper. In addition, we have also up
 </div>
 
 ## Requirements
-- matplotlib==3.10.1
+- matplotlib==3.9.4
 - numpy==2.2.4
 - openpyxl==3.1.5
 - Pillow==11.2.1

@@ -1,6 +1,9 @@
 import os
 import numpy as np
+import matplotlib
+matplotlib.use('TkAgg')  # Use TkAgg backend for better GUI support
 import matplotlib.pyplot as plt
+plt.ion()  # Enable interactive mode
 from PIL import Image
 from matplotlib.lines import Line2D
 from matplotlib.patches import FancyArrowPatch
@@ -463,8 +466,8 @@ class SimulationVisualizer:
         self.interactive_slider = time_slider
         
         # Show the interactive visualization
-        plt.draw()
-        plt.show(block=False)
+        fig.canvas.draw_idle()
+        plt.pause(0.001)  # Allow time for the plot to be drawn
         
         print("Interactive visualization created. Figure displayed, program continues running.")
 
