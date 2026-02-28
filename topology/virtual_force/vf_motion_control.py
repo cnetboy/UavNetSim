@@ -190,4 +190,5 @@ class VfMotionController:
             ax.set_xlabel('x')
             ax.set_ylabel('y')
             ax.set_zlabel('z')
+            plt.draw()
             plt.show(block=False)

@@ -165,6 +165,7 @@ class RandomWaypoint3D:
             ax.set_xlabel('X (m)')
             ax.set_ylabel('Y (m)')
             ax.set_zlabel('Z (m)')
+            plt.draw()
             plt.show(block=False)
 
 

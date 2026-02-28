@@ -463,6 +463,7 @@ class SimulationVisualizer:
         self.interactive_slider = time_slider
         
         # Show the interactive visualization
+        plt.draw()
         plt.show(block=False)
         
         print("Interactive visualization created. Figure displayed, program continues running.")

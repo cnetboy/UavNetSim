@@ -82,6 +82,7 @@ class EnergyModel:
         plt.xlabel('UAV speed (m/s)')
         plt.ylabel('Required power (W)')
         plt.grid()
+        plt.draw()
         plt.show(block=False)
 
 
