@@ -82,7 +82,7 @@ class EnergyModel:
         plt.xlabel('UAV speed (m/s)')
         plt.ylabel('Required power (W)')
         plt.grid()
-        plt.show()
+        plt.show(block=False)
 
 
 # if __name__ == "__main__":

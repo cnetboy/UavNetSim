@@ -463,9 +463,9 @@ class SimulationVisualizer:
         self.interactive_slider = time_slider
         
         # Show the interactive visualization
-        plt.show()
+        plt.show(block=False)
         
-        print("Interactive visualization created. Close the plot window to continue.")
+        print("Interactive visualization created. Figure displayed, program continues running.")
 
     def _get_drone_positions(self, current_time):
         """Get drone positions at a specific time"""

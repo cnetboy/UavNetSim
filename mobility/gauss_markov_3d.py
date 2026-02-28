@@ -161,7 +161,7 @@ class GaussMarkov3D:
             ax.set_xlabel('X (m)')
             ax.set_ylabel('Y (m)')
             ax.set_zlabel('Z (m)')
-            plt.show()
+            plt.show(block=False)
 
     # rebound scheme (refer to ns-3)
     def boundary_test(self, next_position, next_velocity, direction_mean, pitch_mean):

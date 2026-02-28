@@ -34,7 +34,7 @@ def scatter_plot(simulator):
     ax.set_ylabel('Y (m)')
     ax.set_zlabel('Z (m)')
 
-    plt.show()
+    plt.show(block=False)
 
 def scatter_plot_with_obstacles(simulator, grid, path_list):
     fig = plt.figure()
@@ -63,4 +63,4 @@ def scatter_plot_with_obstacles(simulator, grid, path_list):
     ax.set_ylabel('Y (m)')
     ax.set_zlabel('Z (m)')
 
-    plt.show()
+    plt.show(block=False)

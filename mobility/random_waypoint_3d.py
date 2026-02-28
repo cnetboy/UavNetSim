@@ -165,7 +165,7 @@ class RandomWaypoint3D:
             ax.set_xlabel('X (m)')
             ax.set_ylabel('Y (m)')
             ax.set_zlabel('Z (m)')
-            plt.show()
+            plt.show(block=False)
 
 
 def calculate_velocity(current_pos, target_pos, moving_speed):
